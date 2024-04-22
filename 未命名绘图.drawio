@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-22T11:32:52.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="WE6L87s-vRQDbu7HTJy1" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-22T11:37:49.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="pdV3LOi8vCZjmMqvUNfj" version="21.6.8" type="github">
   <diagram name="第 1 页" id="pP1Augc4i_gT_uIrw5zo">
-    <mxGraphModel dx="2514" dy="-258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3521" dy="-15" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -390,20 +390,11 @@
         <mxCell id="GTbeVNirNUgCoXyDw2od-344" value="硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="89.5" y="3882" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GTbeVNirNUgCoXyDw2od-360" value="接口bug/配置不合理/硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-223" y="4560" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="GTbeVNirNUgCoXyDw2od-362" value="接口bug/配置不合理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="4550" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="GTbeVNirNUgCoXyDw2od-364" value="关联" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="4470" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-386" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-384" target="GTbeVNirNUgCoXyDw2od-385">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-384" value="应用指标告警" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="3690" width="120" height="80" as="geometry" />
+          <mxGeometry x="1960" y="3778" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-388" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-385" target="GTbeVNirNUgCoXyDw2od-387">
           <mxGeometry relative="1" as="geometry" />
@@ -412,7 +403,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-385" value="接口指标/错误日志告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="3850" width="120" height="80" as="geometry" />
+          <mxGeometry x="1960" y="3891" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-391" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-387" target="GTbeVNirNUgCoXyDw2od-390">
           <mxGeometry relative="1" as="geometry" />
@@ -421,13 +412,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-387" value="jvm、线程池、连接池、tomcat指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3040" y="3962" width="120" height="80" as="geometry" />
+          <mxGeometry x="3040" y="3995" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-389" value="未知" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3160" y="4110" width="120" height="80" as="geometry" />
+          <mxGeometry x="3180" y="4121" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-390" value="配置不合理/代码设计不合理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2920" y="4100" width="120" height="80" as="geometry" />
+          <mxGeometry x="2900" y="4121" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-396" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-393" target="GTbeVNirNUgCoXyDw2od-395">
           <mxGeometry relative="1" as="geometry" />
@@ -436,7 +427,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-393" value="接口指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1770" y="3972" width="120" height="80" as="geometry" />
+          <mxGeometry x="1770" y="3999" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-416" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-395" target="GTbeVNirNUgCoXyDw2od-408">
           <mxGeometry relative="1" as="geometry" />
@@ -445,7 +436,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-395" value="硬件指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2530" y="4100" width="120" height="80" as="geometry" />
+          <mxGeometry x="2530" y="4128" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-406" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GTbeVNirNUgCoXyDw2od-411">
           <mxGeometry relative="1" as="geometry">
@@ -551,7 +542,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-455" value="硬件指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="4092" width="120" height="80" as="geometry" />
+          <mxGeometry x="1520" y="4127" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GTbeVNirNUgCoXyDw2od-459" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-461" target="GTbeVNirNUgCoXyDw2od-465">
           <mxGeometry relative="1" as="geometry" />
