@@ -1,9 +1,611 @@
-<mxfile host="app.diagrams.net" modified="2024-04-17T02:54:10.496Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.6.8" etag="N1itZF2DV8s9ifY9YsuF" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-22T11:32:52.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="WE6L87s-vRQDbu7HTJy1" version="21.6.8" type="github">
   <diagram name="第 1 页" id="pP1Augc4i_gT_uIrw5zo">
-    <mxGraphModel>
+    <mxGraphModel dx="2514" dy="-258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GTbeVNirNUgCoXyDw2od-292" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="2757" width="1190" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-178" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="2150" width="1160" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-281" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-257" target="GTbeVNirNUgCoXyDw2od-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-257" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2160" width="280" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-76" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="1340" width="900" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-93" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="1740" width="630" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="1440" width="628" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="1611" width="630" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83" y="1364" width="167" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-22" value="CPU指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-23" value="内存指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-24" value="磁盘指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-25" value="网络指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1763" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-26" value="tomcat指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1631" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-27" value="线程池指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="1631" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-28" value="jvm指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-293" y="1631" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-29" value="日志指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-30" value="接口性能监控指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-434" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-31" value="接口错误监控指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-578" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-43" value="出口指标（mysql）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-44" value="出口指标（mongo）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-45" value="出口指标（redis）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-46" value="出口指标（kafka）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-47" value="出口指标（scylladb）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1811" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-48" value="出口指标（es）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1664" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-52" value="agent.alive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1631" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-55" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-542" y="1540" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-56" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="1540" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-57" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-103" y="1540" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-58" value="出口指标（接口）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="106" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-60" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1470" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-61" value="mysql指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="332" y="1449" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-62" value="mongo指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="333" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-63" value="redis指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="334" y="1595" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-64" value="es指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="333" y="1664" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-65" value="kafka指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="334" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-66" value="接口错误监控指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="332" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-67" value="scylladb指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="333" y="1820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-69" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1390" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-70" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1460" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-71" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1530" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-72" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1600" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-73" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1674" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-74" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="262" y="1754" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-75" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1830" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-80" value="业务指标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="1440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-81" value="应用指标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="1615" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-82" value="关联指标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="83" y="1364" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-94" value="硬件指标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="1740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-132" value="全局异常指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-133" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.65;dx=22;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1540" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-280" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-179" target="GTbeVNirNUgCoXyDw2od-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-179" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-638" y="2546" width="768" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-297" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-181" target="GTbeVNirNUgCoXyDw2od-179">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-680" y="2326" />
+              <mxPoint x="-680" y="2632" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-181" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-639" y="2260" width="770" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-183" value="CPU指标&lt;br&gt;cpu.idle" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-434" y="2569" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-184" value="内存指标&lt;br&gt;mem.memfree.percent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-273" y="2569" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-185" value="磁盘指标&lt;br&gt;df.bytes.free.percent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-98" y="2569" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-186" value="网络指标&lt;br&gt;&lt;div&gt;net.if.out.bytes&lt;/div&gt;&lt;div&gt;net.if.in.bytes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-585" y="2573" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-187" value="tomcat指标&lt;br&gt;connectionCount&lt;br&gt;currentThreadsBusy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="2430" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-188" value="线程池指标&lt;br&gt;queueSize&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;activeCount&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="2430" width="173" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-189" value="jvm指标&lt;br&gt;&lt;div&gt;{模块名}-gc:fullGcCount&lt;/div&gt;&lt;div&gt;{模块名}-gc:totalRealTimeElapsed&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="2430" width="188" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-190" value="日志指标&lt;br&gt;&lt;div&gt;log.counter.error:count&lt;/div&gt;&lt;div&gt;log.counter.warn:count&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-212.5" y="2430" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-191" value="接口性能监控指标&lt;br&gt;&lt;div&gt;in.{method}:90p&lt;/div&gt;&lt;div&gt;in.{method}:95p&lt;/div&gt;&lt;div&gt;in.{method}:averageTimeInUs&lt;/div&gt;&lt;div&gt;in.{method}:maxLatencyInUs&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-413.5" y="2320" width="173" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-192" value="接口错误监控指标&lt;br&gt;&lt;div&gt;in.{method}:bizErrorCount&lt;/div&gt;&lt;div&gt;in.{method}:bizErrorRate&lt;/div&gt;&lt;div&gt;in.{method}:internalErrorCount&lt;/div&gt;&lt;div style=&quot;&quot;&gt;in.{method}:internalErrorRate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="2318" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-199" value="agent.alive" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-212.5" y="2320" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-220" value="应用指标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="2250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-222" value="硬件指标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-639" y="2540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-223" value="全局异常指标&lt;br&gt;&lt;div&gt;global.bad_request:count&lt;/div&gt;&lt;div&gt;global.exception:count&lt;/div&gt;&lt;div&gt;global.not_found:count&lt;/div&gt;&lt;div&gt;global.rpc.exception:count&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="2322" width="160" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-228" value="关联指标（mysql）&lt;br&gt;out.mysql.{xxx}:internalErrorCount&lt;br&gt;{dataSource}:ErrorCount&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2250" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-229" value="关联指标（mongo）&lt;br&gt;out.MOngoDB.{xxx}:internalErrorCount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2320" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-230" value="关联指标（redis）&lt;br&gt;out.REDIS.{xxx}:internalErrorCount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2390" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-231" value="关联指标（kafka）&lt;br&gt;&lt;div&gt;in.kafka.msg:bizErrorCount&lt;/div&gt;&lt;div&gt;in.kafka.msg:bizErrorRate&lt;/div&gt;&lt;div&gt;in.kafka.msg:InternalErrorCount&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2540" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-232" value="关联指标（scylladb）&lt;br&gt;out.SCYLLADB.{xxx}:internalErrorCount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2611" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-233" value="关联指标（es）&lt;br&gt;&lt;div&gt;out.{index}:bizErrorCount&lt;/div&gt;&lt;div&gt;out.{index}:internalErrorCount&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2464" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-234" value="出口指标（接口）&lt;br&gt;out.{method}:internalErrorCount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="2760" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-249" value="关联指标（模块）&lt;br&gt;out.{method}:internalErrorCount" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2170" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-263" value="关联指标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-270" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="2772" width="440" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-271" value="硬件指标&lt;br&gt;&lt;div&gt;CPUUtilization&lt;/div&gt;&lt;div&gt;FreeableMemory&lt;/div&gt;&lt;div&gt;FreeStorageSpace&lt;/div&gt;&lt;div&gt;ReadIOPS&lt;/div&gt;&lt;div&gt;ReadLatency&lt;/div&gt;&lt;div&gt;WriteIOPS&lt;/div&gt;&lt;div&gt;WriteLatency&lt;/div&gt;&lt;div&gt;NetworkReceiveThroughput&lt;/div&gt;&lt;div&gt;NetworkTransmitThroughput&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-405" y="2780" width="160" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-272" value="应用指标&lt;br&gt;&lt;div&gt;&lt;/div&gt;update_qps/delete_qps/insert_qps/select_sql&lt;br&gt;&lt;div&gt;begin_qps/rollback_qps/commit_qps&lt;/div&gt;&lt;div&gt;delete_latency/&lt;span style=&quot;background-color: initial;&quot;&gt;insert_latency&lt;/span&gt;&lt;/div&gt;&lt;div&gt;select_avg_latency/&lt;span style=&quot;background-color: initial;&quot;&gt;update_avg_latency&lt;/span&gt;&lt;/div&gt;&lt;div&gt;rows_deleted_ps/&lt;span style=&quot;background-color: initial;&quot;&gt;rows_fetched_ps&lt;/span&gt;&lt;/div&gt;&lt;div&gt;rows_inserted_ps/&lt;span style=&quot;background-color: initial;&quot;&gt;rows_updated_ps&lt;/span&gt;&lt;/div&gt;&lt;div&gt;DatabaseConnections&lt;/div&gt;&lt;div&gt;ReplicaLag&lt;/div&gt;&lt;div&gt;mysql_long_time_process_count&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="2777" width="250" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-274" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="2776" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-276" value="应用指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="314" y="2793" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-277" value="硬件指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="314" y="2826" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-278" value="关联指标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="394" y="2793" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-269" value="依赖模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="264" y="2772" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-279" value="mysql" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="2750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-283" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-177" y="2772" width="440" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-284" value="硬件指标&lt;br&gt;&lt;div&gt;&lt;div&gt;cpu.idle&lt;/div&gt;&lt;div&gt;mem.memfree.percent&lt;/div&gt;&lt;div&gt;df.bytes.free.percent&lt;/div&gt;&lt;div&gt;net.if.in.bytes&lt;/div&gt;&lt;div&gt;net.if.out.bytes&lt;/div&gt;&lt;div&gt;kernel.files.allocated&lt;/div&gt;&lt;div&gt;kernel.files.left&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="88" y="2780" width="160" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-285" value="应用指标&lt;br&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;ss.timewait&lt;/div&gt;&lt;div&gt;ss.estab&lt;/div&gt;&lt;div&gt;slowlog_len&lt;/div&gt;&lt;div&gt;connected_clients_pct&lt;/div&gt;&lt;div&gt;instantaneous_ops_per_sec&lt;/div&gt;&lt;div&gt;keyspace_hit_ratio&lt;/div&gt;&lt;div&gt;blocked_clients&lt;/div&gt;&lt;div&gt;。。。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-167" y="2777" width="250" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-286" value="redis" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-207" y="2750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-291" value="其他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="2864" width="190" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-292" target="GTbeVNirNUgCoXyDw2od-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-295" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.53;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-292" target="GTbeVNirNUgCoXyDw2od-257">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-298" value="依赖服务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="2796" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-315" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-307" target="GTbeVNirNUgCoXyDw2od-310">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-307" value="接口告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="3050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-308" value="错误日志？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-103" y="3050" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-309" value="依赖中间件告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="3310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-316" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-310" target="GTbeVNirNUgCoXyDw2od-309">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-317" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-310" target="GTbeVNirNUgCoXyDw2od-314">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-310" value="关联接口告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="3170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-311" value="硬件指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="3320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-313" value="出口接口指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="3230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-314" value="依赖中间件告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="3310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-325" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-319" target="GTbeVNirNUgCoXyDw2od-320">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-319" value="关联指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="3610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-328" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-320" target="GTbeVNirNUgCoXyDw2od-327">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-329" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-320" target="GTbeVNirNUgCoXyDw2od-326">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-320" value="依赖服务告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-363" y="3770" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-326" value="程序bug/网络问题" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240.5" y="3900" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-332" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-327" target="GTbeVNirNUgCoXyDw2od-330">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-342" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-327" target="GTbeVNirNUgCoXyDw2od-331">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-327" value="关联接口告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-502" y="3890" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-340" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-330" target="GTbeVNirNUgCoXyDw2od-338">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-341" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-330" target="GTbeVNirNUgCoXyDw2od-339">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-330" value="依赖中间件告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="3990" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-336" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.565;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-331" target="GTbeVNirNUgCoXyDw2od-334">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-337" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-331" target="GTbeVNirNUgCoXyDw2od-335">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-331" value="依赖中间件告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-314" y="4012" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-334" value="中间件故障" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="4140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-335" value="程序bug/网络问题" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-183" y="4140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-338" value="xxx接口故障/中间件故障" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="4150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-339" value="xxx接口故障" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="4140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-345" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-343" target="GTbeVNirNUgCoXyDw2od-344">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-343" value="硬件指标告警" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90.5" y="3712" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-344" value="硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="89.5" y="3882" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-360" value="接口bug/配置不合理/硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-223" y="4560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-362" value="接口bug/配置不合理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="4550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-364" value="关联" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="4470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-386" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-384" target="GTbeVNirNUgCoXyDw2od-385">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-384" value="应用指标告警" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="3690" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-388" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-385" target="GTbeVNirNUgCoXyDw2od-387">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-394" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-385" target="GTbeVNirNUgCoXyDw2od-393">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-385" value="接口指标/错误日志告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="3850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-391" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-387" target="GTbeVNirNUgCoXyDw2od-390">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-392" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-387" target="GTbeVNirNUgCoXyDw2od-389">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-387" value="jvm、线程池、连接池、tomcat指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="3962" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-389" value="未知" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3160" y="4110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-390" value="配置不合理/代码设计不合理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="4100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-396" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-393" target="GTbeVNirNUgCoXyDw2od-395">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-456" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-393" target="GTbeVNirNUgCoXyDw2od-455">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-393" value="接口指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="3972" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-416" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-395" target="GTbeVNirNUgCoXyDw2od-408">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-424" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-395" target="GTbeVNirNUgCoXyDw2od-421">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-395" value="硬件指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2530" y="4100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-406" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="GTbeVNirNUgCoXyDw2od-411">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2353.4264068711927" y="4302.144271247461" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-445" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-408" target="GTbeVNirNUgCoXyDw2od-412">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-408" value="jvm、线程池、连接池、tomcat指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2251" y="4240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-409" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-411" target="GTbeVNirNUgCoXyDw2od-413">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-410" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-411" target="GTbeVNirNUgCoXyDw2od-414">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-411" value="接口指标/错误日志指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2517" y="4368" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-412" value="配置不合理/硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="4360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-413" value="代码设计不合理/硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2371" y="4500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-414" value="硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2670" y="4500" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-419" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-421" target="GTbeVNirNUgCoXyDw2od-423">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-420" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-421" target="GTbeVNirNUgCoXyDw2od-422">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-421" value="jvm、线程池、连接池、tomcat指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="4230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-422" value="未知" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3010" y="4378" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-423" value="配置不合理/代码设计不合理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="4368" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-425" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-427" target="GTbeVNirNUgCoXyDw2od-431">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-426" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-427" target="GTbeVNirNUgCoXyDw2od-428">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-427" value="依赖服务告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1857" y="4230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-428" value="接口异常/网络问题" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1979.5" y="4360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-429" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-431" target="GTbeVNirNUgCoXyDw2od-434">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-430" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-431" target="GTbeVNirNUgCoXyDw2od-437">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-431" value="链路接口告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1718" y="4350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-432" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-434">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="4600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-433" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-434" target="GTbeVNirNUgCoXyDw2od-441">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-434" value="依赖中间件告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="4450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-435" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.565;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-437" target="GTbeVNirNUgCoXyDw2od-438">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-436" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-437" target="GTbeVNirNUgCoXyDw2od-439">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-437" value="依赖中间件告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1906" y="4472" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-438" value="接口异常/中间件故障" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="4600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-439" value="接口异常/网络问题" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2037" y="4600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-440" value="关联接口故障/中间件故障" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="4600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-441" value="关联接口故障" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="4600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-457" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-455" target="GTbeVNirNUgCoXyDw2od-427">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-476" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-455" target="GTbeVNirNUgCoXyDw2od-461">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-455" value="硬件指标告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="4092" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-459" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-461" target="GTbeVNirNUgCoXyDw2od-465">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-460" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-461" target="GTbeVNirNUgCoXyDw2od-462">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-461" value="依赖服务告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1047" y="4240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-462" value="接口异常/网络问题" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1169.5" y="4370" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-463" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-465" target="GTbeVNirNUgCoXyDw2od-468">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-464" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-465" target="GTbeVNirNUgCoXyDw2od-471">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-465" value="链路接口告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="908" y="4360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-466" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-468">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="4610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-467" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-468" target="GTbeVNirNUgCoXyDw2od-475">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-468" value="依赖中间件告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="4460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-469" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.565;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-471" target="GTbeVNirNUgCoXyDw2od-472">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-470" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GTbeVNirNUgCoXyDw2od-471" target="GTbeVNirNUgCoXyDw2od-473">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-471" value="依赖中间件告警？" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1096" y="4482" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-472" value="接口异常/中间件故障/硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="4610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-473" value="接口异常/网络问题/硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1227" y="4610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-474" value="关联接口故障/中间件故障/硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="4610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GTbeVNirNUgCoXyDw2od-475" value="关联接口故障/硬件资源不足" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="4610" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
